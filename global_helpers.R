@@ -1,7 +1,7 @@
 # ============================================================================
 # global_helpers.R
 # Municipal Bond ETF — Optimal Passive Limit-Order Execution Engine
-# Version: 1.0.0
+# Version: 1.0.1
 # ----------------------------------------------------------------------------
 # Quantitative pipeline:
 #   1. Two-factor Hull-White short-rate simulation           (rate risk)
@@ -111,7 +111,7 @@ N_PATHS_DEFAULT      <- 10000   # Monte Carlo path count
 CONVEXITY_DEFAULT    <- 0.5     # bond convexity (second-order rate term)
 HY_SPREAD_BASELINE   <- 4.0     # "typical" ICE BofA HY OAS level (%), used
                                  # to normalize the credit-stress multiplier
-APP_VERSION          <- "1.0.0"
+APP_VERSION          <- "1.0.1"
 
 # ---- 0b. Macro event calendar (FOMC + CPI) ----------------------------------
 # Hardcoded rather than pulled live — the Fed and BLS publish these release
